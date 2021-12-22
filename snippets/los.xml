@@ -128,6 +128,7 @@
   <!-- Audio HALS -->
   <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8916" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8952" remote="lineage"/>
+  <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8953" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8960/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8960" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8974" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8994/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8994" remote="lineage"/>
@@ -140,6 +141,7 @@
   <!-- Display HALS -->
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8916" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8952/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8952" remote="lineage"/>
+  <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8953" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8960/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8960" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8974/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8974" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8994/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8994" remote="lineage"/>
@@ -151,6 +153,7 @@
   <!-- Media HALS -->
   <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8916" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8952/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8952" remote="lineage"/>
+  <project path="hardware/qcom-caf/msm8953/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8953" remote="lineage" />
   <project path="hardware/qcom-caf/msm8960/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8960" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8974/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8974" remote="lineage"/>
   <project path="hardware/qcom-caf/msm8994/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8994" remote="lineage"/>
@@ -170,6 +173,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
