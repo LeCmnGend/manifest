@@ -39,7 +39,7 @@
   </project>
 
   <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="superior" />
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="lecmngend" >
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="lecmngend" revision="super">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
