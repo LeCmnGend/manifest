@@ -79,6 +79,7 @@
   <remove-project name="platform/frameworks/libs/systemui" />
 
   <!-- General repos -->
+  <remove-project name="platform/art" />  
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
