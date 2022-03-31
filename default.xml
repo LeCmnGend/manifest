@@ -4,10 +4,30 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="syberia"
+           fetch="https://github.com/syberia-project"
+           revision="refs/heads/11.0" />
+
+  <remote  name="syberia-bb"
+           fetch="https://bitbucket.org/syberia-project"
+           revision="refs/heads/11.0" />
+
+  <remote  name="SyberiaProject-Devices"
+           fetch="https://github.com/SyberiaProject-Devices"
+           revision="10.0" />
+
+  <remote  name="los"
+           fetch="https://github.com/lineageos"/>
+
   <default revision="refs/tags/android-11.0.0_r48"
-           remote="aosp"
-           sync-j="4"
-           sync-c="true"/>
+           remote="aosp" />
 
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -837,14 +857,16 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Remove unused AOSP repos -->
+  <include name="snippets/remove.xml" />
 
-    <!-- Remove unused AOSP repos -->
-    <include name="snippets/remove.xml" />
-  
-    <!-- Some Lineage repos -->
-    <include name="snippets/los.xml" />
-    
-    <!-- Superior OS repos -->
-    <include name="snippets/superior.xml" />
+  <!-- Add all tracked Syberia repos -->
+  <include name="snippets/syberia.xml" />
+
+  <!-- Add LOS repos -->
+  <include name="snippets/los.xml" />
+
+  <!-- Add AOSPA repos -->
+  <include name="snippets/aospa.xml" />
 
 </manifest>
