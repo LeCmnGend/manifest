@@ -99,6 +99,7 @@
   <project path="packages/apps/GamingMode" name="android_packages_apps_GamingMode" remote="superior" />
 
   <!-- Hardware repos -->
+  <project path="hardware/ril" name="android_hardware_ril" remote="lecmngend" revision="super" clone-depth="1"/>
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="superior" />
