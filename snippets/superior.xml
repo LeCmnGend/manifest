@@ -5,6 +5,9 @@
            fetch="https://github.com/LeCmnGend"
 		   revision="refs/heads/11.0" />
 
+  <remote  name="lecmngend-gitlab"
+           fetch="https://gitlab.com/LeCmnGend" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -104,7 +107,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="superior" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="lecmngend/proton-clang" remote="gitlab" revision="clang-15" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="lecmngend-gitlab" revision="clang-15" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="superior" />
 
   <!-- Sepolicy Repos -->
