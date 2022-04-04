@@ -127,6 +127,7 @@
   <project path="system/vold" name="android_system_vold" remote="superior" />
 
   <!-- Other repos -->
+  <project path="external/python/cpython2" name="android_external_python_cpython2" groups="pdk" remote="lecmngend" revision="super" clone-depth="1" />
   <project path="platform_testing" name="android_platform_testing" remote="superior" />
   <project path="vendor/superior" name="android_vendor_superior" remote="lecmngend" />
   <project path="vendor/gapps" name="android_vendor_gapps" remote="superior-gitlab" />
