@@ -14,6 +14,7 @@ Credits:
  * [**Pixys OS**](https://github.com/PixysOS)
  * [**Syberia OS**](https://github.com/syberia-project)
  * [**Nitrogen OS**](https://github.com/nitrogen-project)
+ * [**Superior OS**](https://github.com/SuperiorOS)
 
 -----------------------------------------------------------------------------
 
@@ -28,7 +29,7 @@ To initialize your local repository, use a command like this:
 OR: Use my repos 
 
 ```bash
-    repo init -u https://github.com/LeCmnGend/manifest.git -b 11.0 --depth=1
+    repo init -u https://github.com/LeCmnGend/manifest.git -b super --depth=1
 ```
 
 
