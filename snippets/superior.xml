@@ -61,7 +61,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
   <project path="frameworks/base" name="android_frameworks_base" remote="lecmngend" />
   <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="superior" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="lecmngend" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="superior" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="superior" />
   <project path="frameworks/support/lottie" name="android_frameworks_support_lottie" remote="superior" />
