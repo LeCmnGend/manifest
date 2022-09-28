@@ -45,6 +45,7 @@
   </project>
 
   <!-- CodeAurora additions -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="lecmngend" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="superior" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="superior" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="superior" />
