@@ -24,6 +24,7 @@
           fetch="https://gitlab.com/superioros"
           revision="eleven" />
 
+  <project path="art" name="android_art" groups="pdk" remote="lecmngend"/>
   <project path="bionic" name="android_bionic" remote="lecmngend" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
 

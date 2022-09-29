@@ -152,6 +152,6 @@
   <remove-project name="platform/external/python/cpython2" />
 
   <!-- Packages Repos -->   
-  <remove-project name="platform/packages/providers/TelephonyProvider"  
-  
+  <remove-project name="platform/packages/providers/TelephonyProvider"  />
+  <remove-project name="platform/art" />  
 </manifest>
