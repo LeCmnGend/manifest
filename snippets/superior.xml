@@ -60,7 +60,7 @@
   <project path="external/pulse" name="android_external_pulse" remote="superior" />
 
   <!-- Frameworks Repos -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="superior" />
+  <project path="frameworks/av" name="frameworks_av" remote="lecmngend" />
   <project path="frameworks/base" name="android_frameworks_base" remote="lecmngend" />
   <project path="frameworks/native" name="android_frameworks_native" remote="superior" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="lecmngend" />
