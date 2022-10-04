@@ -22,7 +22,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u https://github.com/LeCmnGend/manifest.git -b super-R --depth=1
+    repo init -u https://github.com/LeCmnGend/manifest_super.git -b super-R --depth=1
 ```
 
 OR: Use orriginal repos
@@ -46,7 +46,7 @@ Start the build:-
 ```bash
   . build/envsetup.sh
   lunch superior_<devicecodename>-userdebug
-  mka bacon -jx
+  make bacon -jx (where x is number of process)
 ```
 -----------------------------------------------------------------------------
 
