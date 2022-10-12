@@ -6,7 +6,11 @@ How to Build?
 
 To initialize your local repository, use a 
 command like this:
+```bash
+  repo init -u https://github.com/LeCmnGend/android_manifest -b sybe-R --depth=1
+```
 
+Or use original repo:
 ```bash
   repo init -u https://github.com/syberia-project/manifest.git -b 11.0
 ```
@@ -15,7 +19,7 @@ Then to sync up:
 ----------------
 
 ```bash
-  repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
    . build/envsetup.sh
