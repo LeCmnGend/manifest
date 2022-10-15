@@ -167,6 +167,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="arrow" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lecmngend" />
 
   <!-- external repos -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
