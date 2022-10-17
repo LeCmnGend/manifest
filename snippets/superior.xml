@@ -95,7 +95,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="lecmngend" />
 
   <!-- Hardware repos -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="superior" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lecmngend" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="superior" />
   <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="lecmngend" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="superior" />
