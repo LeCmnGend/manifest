@@ -94,6 +94,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="superior" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="superior" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="super-R-caf-sm8150" remote="lecmngend" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="lecmngend" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lecmngend" />
 
   <!-- Prebuilts -->
