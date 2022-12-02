@@ -54,6 +54,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="superior" />
   <project path="external/selinux" name="android_external_selinux" remote="superior" />
   <project path="external/pulse" name="android_external_pulse" remote="superior" />
+  <project path="external/flac" name="android_external_flac" groups="pdk" remote="lecmngend" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="lecmngend" />
