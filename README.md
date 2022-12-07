@@ -23,16 +23,8 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u https://github.com/LeCmnGend/manifest_super.git -b super-R --depth=1
+    repo init -u https://github.com/LeCmnGend/android_manifest.git -b super-R --depth=1
 ```
-
-OR: Use orriginal repos
-
-```bash
-    repo init -u https://github.com/SuperiorOS/manifest.git -b eleven
-```
-
-
 
 Then to sync up:-
 ================
