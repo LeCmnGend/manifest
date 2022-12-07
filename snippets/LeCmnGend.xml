@@ -6,6 +6,10 @@
            sync-c="true"
 		   revision="refs/heads/super-R" />
 
+  <!-- External Repos -->
+  <project path="external/python/cpython2" name="android_external_python_cpython2" remote="lecmngend" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="lecmngend" />
+
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="lecmngend" />
 
@@ -23,7 +27,6 @@
   <project path="system/security" name="android_system_security" remote="lecmngend" />
 
   <!-- Other repos -->
-  <project path="external/python/cpython2" name="android_external_python_cpython2" groups="pdk" remote="lecmngend" />
   <project path="vendor/superior" name="android_vendor_superior" remote="lecmngend" />
   <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="lecmngend" />  
   <project path="vendor/support" name="android_vendor_support" remote="lecmngend" />
