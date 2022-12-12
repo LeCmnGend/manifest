@@ -107,6 +107,7 @@
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" /> 
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
