@@ -6,6 +6,18 @@
           review="https://review.lineageos.org/"
           revision="refs/heads/lineage-18.1" />
 
+  <!-- Audio HALS -->
+  <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8916" remote="lineage"/>
+  <project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8952" remote="lineage"/>
+  <project path="hardware/qcom-caf/msm8960/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8960" remote="lineage"/>
+  <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8974" remote="lineage"/>
+  <project path="hardware/qcom-caf/msm8994/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8994" remote="lineage"/>
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8996" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8998" remote="lineage" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sdm845" remote="lineage"/>
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="eleven-caf-sm8150" remote="superior" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sm8250" remote="lineage" />
+
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
@@ -105,23 +117,12 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
 
-  <!-- System -->
+  <!-- System Repos -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" /> 
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
-
-  <!-- Audio HALS -->
-  <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8916" remote="lineage"/>
-  <project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8952" remote="lineage"/>
-  <project path="hardware/qcom-caf/msm8960/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8960" remote="lineage"/>
-  <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8974" remote="lineage"/>
-  <project path="hardware/qcom-caf/msm8994/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8994" remote="lineage"/>
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sdm845" remote="lineage"/>
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="eleven-caf-sm8150" remote="superior" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sm8250" remote="lineage" />
 
   <!-- Display HALS -->
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8916" remote="lineage"/>
