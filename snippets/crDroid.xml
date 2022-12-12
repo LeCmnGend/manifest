@@ -7,9 +7,10 @@
            revision="refs/heads/11.0" />
 
   <!-- External Repos -->
+  <project path="external/freetype" name="android_external_freetype" remote="crdroid" />
   <project path="external/libcxx" name="android_external_libcxx" remote="crdroid" />
   <project path="external/libhevc" name="android_external_libhevc" remote="crdroid" />
-  <project path="external/freetype" name="android_external_freetype" remote="crdroid" />
+  <project path="external/lz4" name="android_external_lz4" remote="crdroid" />
 
   <!-- Packages Repos -->
 
