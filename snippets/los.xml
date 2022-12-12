@@ -118,11 +118,12 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
 
   <!-- System Repos -->
-  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" /> 
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" remote="lineage" />
+  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" /> 
 
   <!-- Display HALS -->
   <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8916" remote="lineage"/>
