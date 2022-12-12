@@ -9,6 +9,7 @@ Credits:
 =======
  * [**AOSP**](https://android.googlesource.com)
  * [**LineageOS**](https://github.com/LineageOS)
+ * [**CrDroidOS**](https://github.com/crdroidandroid)
  * [**PixelExperience**](https://github.com/PixelExperience)
  * [**AospExtended**](https://github.com/AospExtended)
  * [**Pixys OS**](https://github.com/PixysOS)
