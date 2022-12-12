@@ -9,6 +9,7 @@
   <!-- External Repos -->
   <project path="external/libcxx" name="android_external_libcxx" remote="crdroid" />
   <project path="external/libhevc" name="android_external_libhevc" remote="crdroid" />
+  <project path="external/freetype" name="android_external_freetype" remote="crdroid" />
 
   <!-- Packages Repos -->
 
