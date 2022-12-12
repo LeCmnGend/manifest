@@ -59,6 +59,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/flac" />
   <remove-project name="platform/external/tinycompress" />
