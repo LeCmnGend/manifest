@@ -58,7 +58,7 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
-  <!-- external repos -->
+  <!-- External repos -->
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
@@ -96,7 +96,7 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
 
-  <!-- packages -->
+  <!-- Packages Repos-->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -117,13 +117,14 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/KeyChain" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/TelephonyProvider"  />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
@@ -137,9 +138,6 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/tools/aidl" />
 
-  <!-- More repos -->
-  <remove-project name="platform/platform_testing" />
-
   <!-- Prebuilts Repos -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -151,7 +149,8 @@
   <!-- External Repos -->
   <remove-project name="platform/external/python/cpython2" />
 
-  <!-- Packages Repos -->   
-  <remove-project name="platform/packages/providers/TelephonyProvider"  />
-  <remove-project name="platform/art" />  
+  <!-- Other repos -->
+  <remove-project name="platform/art" />
+  <remove-project name="platform/platform_testing" />
+
 </manifest>

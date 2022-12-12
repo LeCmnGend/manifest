@@ -847,4 +847,7 @@
     <!-- Superior OS repos -->
     <include name="snippets/superior.xml" />
 
+    <!-- CrDroid OS repos -->
+    <include name="snippets/crDroid.xml" />
+
 </manifest>
