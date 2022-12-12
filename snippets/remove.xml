@@ -71,6 +71,7 @@
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/expat" />
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
