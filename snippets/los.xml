@@ -35,6 +35,14 @@
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="lineage" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" />
 
+  <!-- DeviceSettings -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="lineage" />
+  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="lineage" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="lineage" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
+
   <!-- External -->
   <project path="external/aac" name="android_external_aac" groups="pdk" remote="lineage" />
   <project path="external/bash" name="android_external_bash" remote="lineage" />
@@ -62,6 +70,9 @@
   <project path="external/libavc" name="android_external_libavc" remote="lineage" />
   <project path="external/libexif" name="android_external_libexif" remote="lineage" />
 
+  <!-- Frameworks Repos -->
+  <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
+
   <!-- Hardware repos -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="lineage" />
@@ -81,14 +92,6 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
-
-  <!-- DeviceSettings -->
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
-  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" remote="lineage" />
-  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" remote="lineage" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="lineage" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
 
   <!-- System -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="lineage" /> 
