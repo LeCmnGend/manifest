@@ -72,8 +72,8 @@
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libexif" />
+  <remove-project name="platform/external/libvterm" />
   <remove-project name="platform/external/wpa_supplicant_8" />
-
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
@@ -104,6 +104,7 @@
   <remove-project name="platform/hardware/qcom/keymaster" />
 
   <!-- Packages Repos-->
+  <remove-project name="platform/art" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/Contacts" />
@@ -125,6 +126,7 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/Stk" />  
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
@@ -132,7 +134,8 @@
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/KeyChain" />
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <remove-project name="platform/packages/providers/ContactsProvider" /> 
+  <remove-project name="platform/packages/providers/TelephonyProvider"  /> 
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
@@ -161,8 +164,5 @@
 
   <!-- External Repos -->
   <remove-project name="platform/external/python/cpython2" />
-
-  <!-- Packages Repos -->   
-  <remove-project name="platform/packages/providers/TelephonyProvider"  />
-  <remove-project name="platform/art" />  
+ 
 </manifest>
