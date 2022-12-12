@@ -95,6 +95,7 @@
   <remove-project name="platform/external/libyuv" />
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libvterm" />
+  <remove-project name="platform/external/lz4" /> 
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/sqlite" />
