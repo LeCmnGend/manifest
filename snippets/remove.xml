@@ -70,12 +70,15 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/aac" />
-. <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/cldr" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/cpu_features" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/freetype" />
+  <remove-project name="platform/external/gptfdisk" />
 <!--
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/kernel-headers" />
@@ -83,7 +86,6 @@
   <remove-project name="platform/external/skia" />
 -->
   <remove-project name="platform/external/python/cpython2" />
-  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libcxx" />
@@ -98,7 +100,6 @@
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
-  <remove-project name="platform/external/chromium-webview" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
