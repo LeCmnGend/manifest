@@ -850,4 +850,7 @@
     <!-- CrDroid OS repos -->
     <include name="snippets/crDroid.xml" />
 
+    <!-- LeCmnGend repos -->
+    <include name="snippets/LeCmnGend.xml" />
+
 </manifest>
