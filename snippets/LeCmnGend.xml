@@ -12,4 +12,10 @@
   <!-- Hardware Repos -->
   <project path="hardware/ril" name="android_hardware_ril" remote="lecmngend" />
 
+
+  <!-- Vendor Repos -->
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="lecmngend" />
+
+
+
 </manifest>
