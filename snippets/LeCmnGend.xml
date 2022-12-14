@@ -16,6 +16,7 @@
   <!-- Vendor Repos -->
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="lecmngend" />
 
-
+  <!-- Prebuilts Repos -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="LeCmnGend/proton-clang" remote="gitlab" revision="clang-16" clone-depth="1" />
 
 </manifest>
