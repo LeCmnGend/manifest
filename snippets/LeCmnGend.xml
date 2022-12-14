@@ -6,4 +6,7 @@
            sync-c="true"
 		   revision="refs/heads/super-R" />
 
+  <!-- System Repos -->
+  <project path="system/security" name="android_system_security" remote="lecmngend" />
+
 </manifest>
