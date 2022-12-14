@@ -15,6 +15,9 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="lecmngend" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="lecmngend" />
 
+  <!-- System Repos -->
+  <project path="system/security" name="android_system_security" remote="lecmngend" />
+
   <!-- Other repos -->
   <project path="external/python/cpython2" name="android_external_python_cpython2" groups="pdk" remote="lecmngend" />
   <project path="vendor/superior" name="android_vendor_superior" remote="lecmngend" />
