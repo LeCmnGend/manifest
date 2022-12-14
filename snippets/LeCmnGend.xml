@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="lecmngend"
+           fetch="https://github.com/LeCmnGend"
+           sync-c="true"
+		   revision="refs/heads/super-R" />
+
+</manifest>
