@@ -9,4 +9,7 @@
   <!-- System Repos -->
   <project path="system/security" name="android_system_security" remote="lecmngend" />
 
+  <!-- Hardware Repos -->
+  <project path="hardware/ril" name="android_hardware_ril" remote="lecmngend" />
+
 </manifest>
