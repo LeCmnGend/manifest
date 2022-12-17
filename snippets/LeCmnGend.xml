@@ -25,6 +25,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External Repos -->
+  <project path="external/flac" name="android_external_flac" groups="pdk" remote="lecmngend" />
+
+
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="lecmngend" />
   <project path="frameworks/base" name="android_frameworks_base" remote="lecmngend" />
