@@ -26,7 +26,8 @@
   </project>
 
   <!-- External Repos -->
-  <project path="external/flac" name="android_external_flac" groups="pdk" remote="lecmngend" />
+  <project path="external/flac" name="android_external_flac" remote="lecmngend" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lecmngend" />
 
 
   <!-- Frameworks Repos -->
