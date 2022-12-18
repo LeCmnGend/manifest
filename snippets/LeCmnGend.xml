@@ -37,6 +37,8 @@
 
   <!-- Hardware Repos -->
   <project path="hardware/ril" name="android_hardware_ril" remote="lecmngend" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="lecmngend" />
+
 
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="lecmngend" />
