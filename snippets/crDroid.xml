@@ -6,7 +6,11 @@
            sync-c="true"
            revision="refs/heads/11.0" />
 
-  <!-- Packages -->
+  <!-- Packages Repos -->
   <project path="packages/apps/CellBroadcastReceiver" name="crdroidandroid/android_packages_apps_CellBroadcastReceiver" remote="crdroid" />
+
+  <!-- Prebuilts Repos -->
+  <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="crdroid" />
+
 
 </manifest>
