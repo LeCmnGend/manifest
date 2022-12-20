@@ -15,5 +15,7 @@
   <!-- Prebuilts Repos -->
   <project path="prebuilts/abi-dumps/vndk" name="crdroidandroid/android_prebuilts_abi-dumps_vndk" remote="crdroid" />
 
+  <!-- System -->
+  <project path="system/hwservicemanager" name="crdroidandroid/android_system_hwservicemanager" remote="crdroid" />
 
 </manifest>
