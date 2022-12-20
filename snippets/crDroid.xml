@@ -10,6 +10,7 @@
   <project path="external/freetype" name="crdroidandroid/android_external_freetype" remote="crdroid" />
   <project path="external/libhevc" name="crdroidandroid/android_external_libhevc" remote="crdroid" />
   <project path="external/libvpx" name="crdroidandroid/android_external_libvpx" remote="crdroid" />
+  <project path="external/libyuv" name="crdroidandroid/android_external_libyuv" remote="crdroid" />
   <project path="external/lz4" name="crdroidandroid/android_external_lz4" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" remote="crdroid" />
 
