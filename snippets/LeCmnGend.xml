@@ -17,6 +17,7 @@
 
   <!-- Prebuilts Repos -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="LeCmnGend/proton-clang" remote="gitlab" revision="clang-16" clone-depth="1" />
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lecmngend" />
 
   <!-- System Repos -->
   <project path="system/security" name="android_system_security" remote="lecmngend" />

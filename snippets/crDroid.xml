@@ -6,4 +6,12 @@
            sync-c="true"
            revision="refs/heads/11.0" />
 
+  <!-- External Repos -->
+
+  <!-- Packages Repos -->
+
+  <!-- Prebuilts Repos -->
+
+  <!-- System -->
+
 </manifest>
