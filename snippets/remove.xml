@@ -72,6 +72,7 @@
   <remove-project name="platform/external/tremolo" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libexif" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libvterm" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
