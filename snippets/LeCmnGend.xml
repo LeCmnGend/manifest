@@ -65,4 +65,7 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="lecmngend" />
   <project path="vendor/support" name="android_vendor_support" remote="lecmngend" />
 
+  <!-- Other Repos -->
+  <project path="development" name="android_development" remote="lecmngend" />
+
 </manifest>
