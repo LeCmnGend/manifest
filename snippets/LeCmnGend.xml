@@ -58,6 +58,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="LeCmnGend/proton-clang" remote="gitlab" revision="clang-16" clone-depth="1" />
 
   <!-- System Repos -->
+  <project path="system/core" name="android_system_core" remote="lecmngend" />
   <project path="system/security" name="android_system_security" remote="lecmngend" />
 
   <!-- Vendor Repos -->
