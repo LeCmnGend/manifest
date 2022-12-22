@@ -6,4 +6,7 @@
            sync-c="true"
 		   revision="refs/heads/super-R" />
 
+  <!-- Packages -->
+  <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="lecmngend" />
+
 </manifest>
