@@ -6,10 +6,18 @@
            sync-c="true"
 		   revision="refs/heads/super-R" />
 
+  <!-- Manifest -->
+  <project path="manifest" name="android_manifest" remote="lecmngend" />
+
   <!-- Packages -->
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="lecmngend" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lecmngend" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="lecmngend" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="lecmngend" />
+
+  <!-- Other repos -->
+  <project path="vendor/superior" name="android_vendor_superior" remote="lecmngend" />
+  <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="lecmngend" />  
+
 
 </manifest>
