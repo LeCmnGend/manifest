@@ -150,6 +150,7 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/tools/aidl" />
+  <remove-project name="platform/system/tools/hidl" />
 
   <!-- Prebuilts Repos -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
