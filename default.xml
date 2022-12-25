@@ -3,6 +3,7 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
+           sync-c="true"
            review="https://android-review.googlesource.com/" />
 
   <remote  name="github"
@@ -13,22 +14,27 @@
 
   <remote  name="syberia"
            fetch="https://github.com/syberia-project"
+           sync-c="true"
            revision="refs/heads/11.0" />
 
   <remote  name="syberia-bb"
            fetch="https://bitbucket.org/syberia-project"
+           sync-c="true"
            revision="refs/heads/11.0" />
 
   <remote  name="SyberiaProject-Devices"
            fetch="https://github.com/SyberiaProject-Devices"
+           sync-c="true"
            revision="10.0" />
 
   <remote  name="los"
            fetch="https://github.com/lineageos"
+           sync-c="true"
            revision="lineage-18.1" />
 
   <remote  name="lecmngend"
            fetch="https://github.com/LeCmnGend"
+           sync-c="true"
            revision="sybe-R" />
 
   <remote name="aosp-security"
@@ -37,7 +43,13 @@
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-security-11.0.0_r74" />
 
+  <remote name="crdroid"
+           fetch="https://github.com/crdroidandroid/"
+           sync-c="true"
+           revision="refs/heads/11.0" />
+
   <default revision="refs/tags/android-11.0.0_r48"
+           sync-c="true"
            remote="aosp" />
 
   <superproject name="platform/superproject" remote="aosp"/>
@@ -877,8 +889,11 @@
   <!-- Add LOS repos -->
   <include name="snippets/los.xml" />
 
-<!-- Add Lecmngend repos -->
+  <!-- Add Lecmngend repos -->
   <include name="snippets/lecmngend.xml" />
+
+  <!-- Add crDroid repos -->
+  <include name="snippets/crdroid.xml" />
 
   <!-- Add AOSPA repos -->
   <include name="snippets/aospa.xml" />
