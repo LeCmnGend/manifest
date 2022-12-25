@@ -15,6 +15,15 @@
   <project path="external/lz4" name="android_external_lz4" remote="crdroid" />
   <project path="external/zlib" name="android_external_zlib" remote="crdroid" />
 
+  <!-- Audio HALs -->
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="11.0-caf-sm8250"  remote="crdroid" />
+
+  <!-- Display HALs -->
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="11.0-caf-sm8250"  remote="crdroid" />
+
+  <!-- Media HALs -->
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="11.0-caf-sm8250"  remote="crdroid" />
+
   <!-- Packages Repos -->
 
   <!-- Prebuilts Repos -->
