@@ -72,6 +72,7 @@
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/libexif" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libvterm" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/expat" />
