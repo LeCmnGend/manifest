@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="crdroid"
-           fetch="https://github.com/"
+           fetch="https://github.com/crdroidandroid/"
            sync-c="true"
            revision="refs/heads/11.0" />
 
@@ -12,6 +12,7 @@
 
   <!-- Prebuilts Repos -->
 
-  <!-- System -->
+  <!-- System Repos -->
+  <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="crdroid" />
 
 </manifest>
