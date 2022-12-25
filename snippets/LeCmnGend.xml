@@ -15,6 +15,9 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="lecmngend" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="lecmngend" />
 
+  <!-- Prebuilts Repos -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="LeCmnGend/proton-clang" remote="gitlab" revision="clang-16" clone-depth="1" />
+
   <!-- System Repos -->
   <project path="system/security" name="android_system_security" remote="lecmngend" />
 
