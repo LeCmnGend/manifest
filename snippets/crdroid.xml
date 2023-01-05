@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- External Repos -->
+  <project path="external/libcxx" name="android_external_libcxx" remote="crdroid" />
 
   <!-- Packages Repos -->
 
