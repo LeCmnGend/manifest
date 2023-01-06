@@ -24,6 +24,7 @@
 
   <!-- External -->
   <project path="external/python/cpython2" name="android_external_python_cpython2"  remote="lecmngend" />
+  <project path="external/zlib" name="android_external_zlib" remote="lecmngend" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="lecmngend" />
