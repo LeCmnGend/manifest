@@ -6,18 +6,55 @@
            sync-c="true"
 		   revision="refs/heads/super-R" />
 
+  <!-- Build Repos -->
+  <project path="build/make" name="android_build_make" remote="lecmngend" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="build/soong" name="android_build_soong" remote="lecmngend" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- CodeAurora additions -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lecmngend" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lecmngend" />
+
   <!-- External Repos -->
+  <project path="external/flac" name="android_external_flac" remote="lecmngend" />
   <project path="external/python/cpython2" name="android_external_python_cpython2" remote="lecmngend" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lecmngend" />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="lecmngend" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="lecmngend" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lecmngend" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="lecmngend" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lecmngend" />
+  <project path="hardware/superior/interfaces" name="android_hardware_superior_interfaces" remote="lecmngend" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="lecmngend" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="lecmngend" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lecmngend" />
 
   <!-- Manifest -->
   <project path="manifest" name="android_manifest" remote="lecmngend" />
 
   <!-- Packages -->
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="lecmngend" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="lecmngend" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lecmngend" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="lecmngend" />
   <project path="packages/apps/SuperiorSettings" name="android_packages_apps_SuperiorSettings" remote="lecmngend" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="lecmngend" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lecmngend" />
 
   <!-- Prebuilts Repos -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="LeCmnGend/proton-clang" remote="gitlab" revision="clang-16" clone-depth="1" />
@@ -27,6 +64,8 @@
   <project path="system/security" name="android_system_security" remote="lecmngend" />
 
   <!-- Other repos -->
+  <project path="art" name="android_art" remote="lecmngend"/>
+  <project path="bionic" name="android_bionic" remote="lecmngend" />
   <project path="vendor/superior" name="android_vendor_superior" remote="lecmngend" />
   <project path="vendor/miuicamera" name="android_vendor_miuicamera" remote="lecmngend" />  
   <project path="vendor/support" name="android_vendor_support" remote="lecmngend" />
