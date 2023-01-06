@@ -22,9 +22,6 @@
 
   <project path="bootable/recovery" name="android_bootable_recovery" remote="superior" />
 
-  <!-- Build Repos -->
-  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="superior" />
-
   <!-- CodeAurora additions -->
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="superior" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="superior" />
