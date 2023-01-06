@@ -61,13 +61,14 @@
   <!-- External repos -->
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/chromium-webview" />
-  <remove-project name="platform/external/flac" />
   <remove-project name="platform/external/dtc" />
+  <remove-project name="platform/external/flac" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/expat" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcxx" />  
   <remove-project name="platform/external/libexif" />
+  <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/libvterm" />
   <remove-project name="platform/external/lz4" /> 
