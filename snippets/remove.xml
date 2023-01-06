@@ -65,6 +65,7 @@
   <remove-project name="platform/external/flac" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/expat" />
+  <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/libcxx" />  
   <remove-project name="platform/external/libexif" />

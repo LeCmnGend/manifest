@@ -8,6 +8,7 @@
 
   <!-- External Repos -->
   <project path="external/freetype" name="android_external_freetype" remote="crdroid" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="crdroid" />
   <project path="external/libcxx" name="android_external_libcxx" remote="crdroid" />
   <project path="external/libhevc" name="android_external_libhevc" remote="crdroid" />
   <project path="external/libvpx" name="android_external_libvpx" remote="crdroid" />
