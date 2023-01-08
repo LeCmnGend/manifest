@@ -150,7 +150,7 @@
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/ril" />
 
-  <!-- Packages -->
+  <!-- Packages Repos-->
 <!--
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
