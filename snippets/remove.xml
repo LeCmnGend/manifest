@@ -106,8 +106,9 @@
   <remove-project name="platform/external/libvpx" />
   <remove-project name="platform/external/libvterm" />
   <remove-project name="platform/external/lz4" /> 
-  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/scudo" />
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />

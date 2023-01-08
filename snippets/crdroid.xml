@@ -7,6 +7,7 @@
   <project path="external/libhevc" name="android_external_libhevc" remote="crdroid" />
   <project path="external/libvpx" name="android_external_libvpx" remote="crdroid" />
   <project path="external/lz4" name="android_external_lz4" remote="crdroid" />
+  <project path="external/skia" name="android_external_skia" remote="crdroid" />
 
   <!-- Packages Repos -->
 
