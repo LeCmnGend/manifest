@@ -110,6 +110,9 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
 
+  <!-- Libs Repos -->
+  <remove-project name="platform/libcore" />
+
   <!-- Packages Repos-->
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/Browser2" />
