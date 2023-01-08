@@ -33,5 +33,6 @@
 
   <!-- System Repos -->
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="crdroid" />
+  <project path="system/vold" name="android_system_vold" remote="crdroid" />
 
 </manifest>
