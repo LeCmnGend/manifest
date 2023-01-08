@@ -34,5 +34,8 @@
   <!-- System Repos -->
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="crdroid" />
   <project path="system/vold" name="android_system_vold" remote="crdroid" />
+  
+  <!-- Vendor Repos -->
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="crdroid" />
 
 </manifest>
