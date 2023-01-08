@@ -63,6 +63,7 @@
 
   <!-- System Repos -->
   <project path="system/security" name="android_system_security" remote="lecmngend" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="lecmngend" />
 
   <!-- Other repos -->
   <project path="art" name="android_art" remote="lecmngend"/>
