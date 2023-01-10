@@ -37,8 +37,9 @@
   <!-- Prebuilts Repos -->
 
   <!-- System Repos -->
-  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="crdroid" />
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="crdroid" />
+  <project path="system/iorap" name="android_system_iorap" remote="crdroid" />
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="crdroid" />
   <project path="system/memory/lmkd" name="android_system_memory_lmkd" remote="crdroid" />
   <project path="system/vold" name="android_system_vold" remote="crdroid" />
   
