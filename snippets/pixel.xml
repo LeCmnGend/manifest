@@ -28,6 +28,7 @@
           revision="eleven" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="pixel" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
 
 </manifest>
