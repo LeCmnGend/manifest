@@ -853,4 +853,7 @@
     <!-- LeCmnGend repos -->
     <include name="snippets/LeCmnGend.xml" />
 
+    <!-- Pixel repos -->
+    <include name="snippets/pixel.xml" />	
+
 </manifest>
