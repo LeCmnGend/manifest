@@ -93,6 +93,7 @@
   <remove-project name="platform/frameworks/libs/native_bridge_support" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/minikin" />
+  <remove-project name="platform/frameworks/ml" />
 
   <!-- General repos -->
   <remove-project name="platform/bionic" />

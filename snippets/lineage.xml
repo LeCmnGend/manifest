@@ -85,6 +85,7 @@
 
   <!-- Frameworks Repos -->
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="lineage" />
+  <project path="frameworks/ml" name="android_frameworks_ml" remote="lineage" />
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="lineage" />
