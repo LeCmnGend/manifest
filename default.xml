@@ -842,7 +842,7 @@
     <include name="snippets/remove.xml" />
   
     <!-- Some Lineage repos -->
-    <include name="snippets/los.xml" />
+    <include name="snippets/lineage.xml" />
     
     <!-- Superior OS repos -->
     <include name="snippets/superior.xml" />
