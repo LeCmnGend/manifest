@@ -37,6 +37,7 @@
   <!-- Prebuilts Repos -->
 
   <!-- System Repos -->
+  <project path="system/bpf" name="android_system_bpf" remote="crdroid" />
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="crdroid" />
   <project path="system/iorap" name="android_system_iorap" remote="crdroid" />
   <project path="system/linkerconfig" name="android_system_linkerconfig" remote="crdroid" />
