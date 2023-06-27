@@ -35,6 +35,7 @@
   <!-- Packages Repos -->
 
   <!-- Prebuilts Repos -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="android_prebuilts_clang_host_linux-x86_clang-r416183b" remote="crdroid" clone-depth="1" />
 
   <!-- System Repos -->
   <project path="system/bpf" name="android_system_bpf" remote="crdroid" />
