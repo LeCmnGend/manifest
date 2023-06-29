@@ -4,10 +4,19 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
+  <remote name="aosp-security"
+           fetch="https://android.googlesource.com/"
+           sync-c="true"
+           review="https://android-review.googlesource.com/"
+           revision="refs/tags/android-security-11.0.0_r68" />
+
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
+
+
 
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -123,7 +132,7 @@
   <project path="external/bc" name="platform/external/bc" groups="pdk" />
   <project path="external/bcc" name="platform/external/bcc" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" />
-  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" />
+  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk"                              remote="aosp-security" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
@@ -139,7 +148,7 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cldr" name="platform/external/cldr" groups="pdk" />
   <project path="external/cn-cbor" name="platform/external/cn-cbor" groups="pdk" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="refs/tags/android-security-11.0.0_r61" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk"                          remote="aosp-security" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" />
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" />
@@ -180,7 +189,7 @@
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/flatbuffers" name="platform/external/flatbuffers" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" />
-  <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk"                                     remote="aosp-security" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk" />
   <project path="external/fsverity-utils" name="platform/external/fsverity-utils" groups="pdk" />
@@ -263,14 +272,14 @@
   <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" />
   <project path="external/libcups" name="platform/external/libcups" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
-  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk"                              remote="aosp-security" />
   <project path="external/libdaemon" name="platform/external/libdaemon" groups="pdk" />
   <project path="external/libdivsufsort" name="platform/external/libdivsufsort" groups="pdk" />
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" />
   <project path="external/libepoxy" name="platform/external/libepoxy" groups="pdk" />
   <project path="external/libese" name="platform/external/libese" groups="pdk" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
-  <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
+  <project path="external/libexif" name="platform/external/libexif" groups="pdk"                                  remote="aosp-security" />
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" />
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" />
   <project path="external/libfuse" name="platform/external/libfuse" groups="pdk" />
@@ -283,7 +292,7 @@
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libnetfilter_conntrack" name="platform/external/libnetfilter_conntrack" groups="pdk" />
   <project path="external/libnfnetlink" name="platform/external/libnfnetlink" groups="pdk" />
-  <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
+  <project path="external/libnl" name="platform/external/libnl" groups="pdk"                                      remote="aosp-security" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" />
@@ -292,8 +301,8 @@
   <project path="external/libprotobuf-mutator" name="platform/external/libprotobuf-mutator" groups="pdk" />
   <project path="external/libsrtp2" name="platform/external/libsrtp2" groups="pdk" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
-  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
-  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" />
+  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp-security" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" remote="aosp-security" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
@@ -303,7 +312,7 @@
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk"                                        remote="aosp-security" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" />
   <project path="external/lua" name="platform/external/lua" groups="pdk" />
   <project path="external/ltp" name="platform/external/ltp" groups="vts,pdk" />
@@ -347,7 +356,7 @@
   <project path="external/parameter-framework" name="platform/external/parameter-framework" groups="pdk" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
-  <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" />
+  <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" remote="aosp-security" />
   <project path="external/piex" name="platform/external/piex" groups="pdk" />
   <project path="external/ply" name="platform/external/ply" groups="pdk" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk" />
@@ -413,7 +422,7 @@
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
-  <project path="external/speex" name="platform/external/speex" groups="pdk" />
+  <project path="external/speex" name="platform/external/speex" groups="pdk"                      remote="aosp-security"       />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk" />
@@ -493,7 +502,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/tv/tvsystem" name="platform/frameworks/opt/tv/tvsystem" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk"                                                  remote="aosp-security"/>
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
@@ -757,7 +766,7 @@
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
   <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
-  <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk"                              remote="aosp-security" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
@@ -768,7 +777,7 @@
   <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" />
   <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" />
   <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk"                                            remote="aosp-security"  />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
