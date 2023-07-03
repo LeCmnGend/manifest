@@ -6,6 +6,11 @@
            sync-c="true"
            revision="refs/heads/11.0" />
 
+  <remote name="crdroid-gitlab"
+           fetch="https://gitlab.com/crdroidandroid/"
+           sync-c="true"
+           revision="refs/heads/11.0" />
+
   <!-- External Repos -->
   <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="crdroid" />
   <project path="external/freetype" name="android_external_freetype" remote="crdroid" />
@@ -36,6 +41,7 @@
 
   <!-- Prebuilts Repos -->
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crdroid" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r428724" name="android_prebuilts_clang_host_linux-x86_clang-r428724" remote="crdroid-gitlab" clone-depth="1" />
 
   <!-- System Repos -->
   <project path="system/bpf" name="android_system_bpf" remote="crdroid" />
