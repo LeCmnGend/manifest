@@ -31,6 +31,12 @@
            fetch="https://github.com/LeCmnGend"
            revision="sybe-R" />
 
+  <remote name="aosp-security"
+           fetch="https://android.googlesource.com/"
+           sync-c="true"
+           review="https://android-review.googlesource.com/"
+           revision="refs/tags/android-security-11.0.0_r74" />
+
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp" />
 
