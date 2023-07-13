@@ -28,7 +28,7 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lecmngend" />
 
   <!-- External Repos -->
-  <project path="external/flac" name="android_external_flac" remote="lecmngend" />
+  <!--project path="external/flac" name="android_external_flac" remote="lecmngend" /-->
   <project path="external/python/cpython2" name="android_external_python_cpython2" remote="lecmngend" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="lecmngend" />
 
