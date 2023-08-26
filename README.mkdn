@@ -36,7 +36,7 @@ $ mkdir crDroid
 $ cd crDroid
 
 # Install Repo in the created directory
-$ repo init -u https://github.com/LeCmnGend/android_manifest -b cr-R --depth=1
+$ repo init -u https://github.com/LeCmnGend/android_manifest -b cr-R --git-lfs --depth=1 
 
 # Or Use original link:
 $ repo init -u https://github.com/crdroidandroid/android.git -b 11.0
