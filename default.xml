@@ -619,7 +619,7 @@
   <!--project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" /-->
   <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" remote="aosp" />
-  <project path="system/ca-certificates" name="LineageOS-Revived/android_system_ca-certificates" groups="pdk" />
+  <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" groups="pdk" revision="lineage-19.1" />
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="LineageOS/android_system_connectivity_wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
