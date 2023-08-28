@@ -17,4 +17,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <!-- Prebuilts Repos -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lecmngend" />
 </manifest>
