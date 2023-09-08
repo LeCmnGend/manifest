@@ -11,12 +11,13 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-11.0.0_r46" />
+           revision="refs/tags/android-11.0.0_r48" />
 
-  <default revision="refs/heads/lineage-18.1"
-           remote="github"
+  <remote name="aosp-security"
+           fetch="https://android.googlesource.com/"
            sync-c="true"
-           sync-j="4" />
+           review="https://android-review.googlesource.com/"
+           revision="refs/tags/android-security-11.0.0_r69" />
 
   <remote  name="crdroid"
            fetch="https://github.com/"
@@ -29,6 +30,11 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/11.0" />
+
+  <default revision="refs/heads/lineage-18.1"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
 
   <!-- AOSP Projects -->
 
@@ -684,9 +690,9 @@
     <linkfile src="current/androidx-README.md" dest="frameworks/support.md" />
   </project>
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/vndk/v27" name="platform/prebuilts/vndk/v27" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/vndk/v27" name="platform/prebuilts/vndk/v27" groups="pdk" clone-depth="1" remote="aosp-security" />
+  <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" remote="aosp-security" />
+  <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp-security" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
