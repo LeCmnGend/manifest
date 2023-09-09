@@ -22,6 +22,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Frameworks Repos -->
+  <project path="frameworks/native" name="android_frameworks_native" remote="lecmngend" />
+
   <!-- Prebuilts Repos -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lecmngend" />
 </manifest>
