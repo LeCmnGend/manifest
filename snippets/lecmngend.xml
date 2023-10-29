@@ -27,4 +27,6 @@
 
   <!-- Prebuilts Repos -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lecmngend" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lecmngend" />
+
 </manifest>
