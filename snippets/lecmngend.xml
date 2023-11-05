@@ -6,6 +6,12 @@
            sync-c="true"
 		   revision="refs/heads/cr-R" />
 
+  <!-- Additions -->
+  <project path="android" name="android_manifest" remote="lecmngend" />
+
+  <project path="art" name="android_art" remote="lecmngend" />
+
+
   <!-- Build Repos -->
   <project path="build/make" name="android_build_make" remote="lecmngend" >
     <copyfile src="core/root.mk" dest="Makefile" />
