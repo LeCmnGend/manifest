@@ -29,6 +29,7 @@
   </project>
 
   <!-- Frameworks Repos -->
+  <project path="frameworks/base"   name="android_frameworks_base"   remote="lecmngend" />
   <project path="frameworks/native" name="android_frameworks_native" remote="lecmngend" />
 
   <!-- Prebuilts Repos -->
