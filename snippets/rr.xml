@@ -19,7 +19,6 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="rr" />
 
   <!-- System -->
-  <project path="system/netd" name="android_system_netd" remote="rr" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="rr" />
   <project path="external/sqlite" name="android_external_sqlite" remote="rr" />
   <project path="external/motorola/faceunlock" name="external_utils" remote="bb" />

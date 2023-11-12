@@ -48,6 +48,7 @@
   <!-- System -->
   <project path="system/core" name="system_core" remote="rr-r" />
   <project path="system/bt" name="system_bt" remote="rr-r" />
+  <project path="system/netd" name="system_netd" remote="rr-r" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="rr-r" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="rr-r" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="rr-r" />
