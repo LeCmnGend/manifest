@@ -24,7 +24,12 @@
            revision="10.0" />
 
   <remote  name="los"
-           fetch="https://github.com/lineageos"/>
+           fetch="https://github.com/lineageos"
+           revision="lineage-18.1" />
+
+  <remote  name="lecmngend"
+           fetch="https://github.com/LeCmnGend"
+           revision="sybe-R" />
 
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp" />
@@ -865,6 +870,9 @@
 
   <!-- Add LOS repos -->
   <include name="snippets/los.xml" />
+
+<!-- Add Lecmngend repos -->
+  <include name="snippets/lecmngend.xml" />
 
   <!-- Add AOSPA repos -->
   <include name="snippets/aospa.xml" />
