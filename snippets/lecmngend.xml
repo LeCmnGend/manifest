@@ -11,6 +11,11 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/soong" name="android_build_soong" remote="lecmngend" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="sybe-R-caf-sm8150" remote="lecmngend" />
