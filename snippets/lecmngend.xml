@@ -16,6 +16,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External -->
+  <project path="external/python/cpython2" name="android_external_python_cpython2" remote="lecmngend" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="lecmngend" />
 

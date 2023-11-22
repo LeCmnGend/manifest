@@ -75,6 +75,7 @@
   <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/skia" />
 -->
+  <remove-project name="platform/external/python/cpython2" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/cpu_features" />
