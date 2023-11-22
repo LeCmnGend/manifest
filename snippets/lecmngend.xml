@@ -31,6 +31,10 @@
 
     <!-- Prebuits -->
     <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lecmngend" />
+    
+  <!-- System -->
+  <project path="system/security" name="android_system_security" remote="lecmngend"  />
+
 
     <!-- Vendor -->
     <project path="vendor/syberia" name="android_vendor_syberia" remote="lecmngend" />
