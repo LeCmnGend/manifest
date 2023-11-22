@@ -26,6 +26,7 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="sybe-R-caf-sm8150" remote="lecmngend" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="sybe-R-caf-sm8150" remote="lecmngend" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="sybe-R-caf-sm8150" remote="lecmngend" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="lecmngend" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="lecmngend" revision="sybe-R-raphael"/>
 
     <!-- Prebuits -->
