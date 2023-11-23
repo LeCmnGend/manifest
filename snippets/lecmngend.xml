@@ -29,14 +29,15 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="lecmngend" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="lecmngend" revision="sybe-R-raphael"/>
 
-    <!-- Prebuits -->
-    <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lecmngend" />
+  <!-- Prebuits -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lecmngend" />
     
   <!-- System -->
   <project path="system/security" name="android_system_security" remote="lecmngend"  />
 
 
-    <!-- Vendor -->
-    <project path="vendor/syberia" name="android_vendor_syberia" remote="lecmngend" />
+  <!-- Vendor -->
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lecmngend" />
+  <project path="vendor/syberia" name="android_vendor_syberia" remote="lecmngend" />
 
 </manifest>
