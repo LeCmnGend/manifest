@@ -104,7 +104,6 @@
   <project path="system/memory/lmkd" name="platform_system_memory_lmkd" remote="syberia" />
   <project path="system/netd" name="platform_system_netd" remote="syberia" />
   <project path="system/media" name="platform_system_media" remote="syberia" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="syberia" />
   <project path="system/update_engine" name="platform_system_update_engine" remote="syberia" />
   <project path="system/vold" name="platform_system_vold" remote="syberia" />
 
