@@ -16,8 +16,11 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/syberia/sepolicy"  name="android_device_syberia_sepolicy"   remote="lecmngend" />
+
   <!-- External -->
-  <project path="external/python/cpython2" name="android_external_python_cpython2" remote="lecmngend" />
+  <project path="external/python/cpython2" name="android_external_python_cpython2"  remote="lecmngend" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="lecmngend" />
