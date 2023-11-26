@@ -24,6 +24,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="lecmngend" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="lecmngend"/>
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="sybe-R-caf-sm8150" remote="lecmngend" />
