@@ -40,6 +40,9 @@
   <project path="system/security" name="android_system_security" remote="lecmngend"  />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="lecmngend" />
 
+  <!-- Services -->
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="lecmngend" />
+
   <!-- Vendor -->
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="lecmngend" />
   <project path="vendor/syberia" name="android_vendor_syberia" remote="lecmngend" />
