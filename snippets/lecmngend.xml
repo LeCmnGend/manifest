@@ -34,6 +34,9 @@
   <project path="hardware/ril" name="android_hardware_ril" remote="lecmngend" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="lecmngend" revision="sybe-R-raphael"/>
 
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lecmngend" />
+
   <!-- Prebuits -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lecmngend" />
     
