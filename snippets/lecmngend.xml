@@ -2,6 +2,8 @@
 <manifest>
 
   <!-- Android General -->
+  <project path="bionic" name="android_bionic" remote="lecmngend" />
+
   <project path="build/make" name="android_build_make" remote="lecmngend" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
