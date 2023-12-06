@@ -37,6 +37,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lecmngend" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="lecmngend" />
   <project path="packages/apps/SyberiaSettings" name="android_packages_apps_SyberiaSettings" remote="lecmngend" />
 
   <!-- Prebuits -->
