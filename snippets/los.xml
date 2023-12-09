@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="los" revision="lineage-18.1" >
+
+  <!-- Hardware -->
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="los" revision="lineage-18.1" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->
@@ -27,8 +29,10 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" revision="lineage-18.1" />
+
+  <!-- External -->
+  <project path="external/aac" name="android_external_aac" groups="pdk" remote="los" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" revision="lineage-18.1" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" revision="lineage-18.1" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" revision="lineage-18.1" />
