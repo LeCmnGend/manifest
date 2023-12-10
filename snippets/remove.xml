@@ -70,6 +70,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/aac" />
+  <remove-project name="platform/external/expat" />
 <!--
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/kernel-headers" />
