@@ -42,6 +42,7 @@
 
 
   <!-- Packages -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lecmngend" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PackageInstaller" remote="lecmngend" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lecmngend" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="lecmngend" />
