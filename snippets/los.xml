@@ -33,6 +33,7 @@
 
   <!-- External -->
   <project path="external/aac" name="android_external_aac" groups="pdk" remote="los" />
+  <project path="external/dtc" name="android_external_dtc" remote="los" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="los" />
   <project path="external/expat" name="android_external_expat" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="los" />
