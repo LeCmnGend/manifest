@@ -60,8 +60,11 @@
 
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="los" revision="lineage-18.1" />
 
-  <project path="system/timezone" name="android_system_timezone" remote="los" revision="lineage-18.1" />
+  <!-- System Repos -->
+  <project path="system/libhidl"  name="android_system_libhidl"  remote="los" />
+  <project path="system/timezone" name="android_system_timezone" remote="los" />
 
+  <!-- Vendor Repos -->
   <project path="vendor/crowdin" name="android_vendor_crowdin" remote="los" revision="lineage-18.1" />
 
 
