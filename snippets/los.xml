@@ -64,6 +64,7 @@
   <!-- System Repos -->
   <project path="system/nfc" name="android_system_nfc" remote="los" />
   <project path="system/libhidl"  name="android_system_libhidl"  remote="los" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="los" />
   <project path="system/timezone" name="android_system_timezone" remote="los" />
 
   <!-- Vendor Repos -->
