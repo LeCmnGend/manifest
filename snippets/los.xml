@@ -57,8 +57,9 @@
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="los" />
 
 
-
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="los" revision="lineage-18.1" />
+  <!-- Packages Repos -->
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="los" />
+  <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" remote="los" />
 
   <!-- System Repos -->
   <project path="system/nfc" name="android_system_nfc" remote="los" />

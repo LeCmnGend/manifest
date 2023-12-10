@@ -148,7 +148,6 @@
 
   <!-- Packages -->
 <!--
-  <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DevCamera" />
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Music" />
@@ -181,11 +180,12 @@
   <remove-project name="platform/packages/apps/Stk" />  
   <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/modules/DnsResolver" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />
