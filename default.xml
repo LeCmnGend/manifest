@@ -220,7 +220,7 @@
   <project path="external/fastrpc" name="platform/external/fastrpc" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" groups="pdk" />
-  <project path="external/flac" name="platform/external/flac" groups="pdk" />
+  <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp-security" />
   <project path="external/flatbuffers" name="platform/external/flatbuffers" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" />
   <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk" remote="aosp-security" />
@@ -294,8 +294,8 @@
   <project path="external/junit-params" name="platform/external/junit-params" groups="pdk" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk" />
   <project path="external/kmod" name="platform/external/kmod" groups="pdk" />
-  <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" />
-  <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" groups="pdk" />
+  <project path="external/kotlinc" name="platform/external/kotlinc" groups="pdk" remote="aosp-security" />
+  <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" groups="pdk" remote="aosp-security" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" />
   <project path="external/libaom" name="platform/external/libaom" groups="pdk" />
   <project path="external/libavc" name="platform/external/libavc" groups="pdk" />
@@ -474,7 +474,7 @@
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp-security"/>
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/turbine" name="platform/external/turbine" groups="pdk" />
+  <project path="external/turbine" name="platform/external/turbine" groups="pdk" remote="aosp-security" />
   <project path="external/u-boot" name="platform/external/u-boot" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" />
@@ -736,7 +736,7 @@
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" remote="aosp-security" />
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" remote="aosp-security" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp-security" />
-  <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" groups="pdk-fs" clone-depth="1" remote="aosp-security" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/fuchsia_sdk" name="platform/prebuilts/fuchsia_sdk" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="aosp-security" />
@@ -765,13 +765,13 @@
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk" clone-depth="1" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/ktlint" name="platform/prebuilts/ktlint" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp-security" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp-security" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp-security" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" groups="pdk" clone-depth="1" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk" clone-depth="1" remote="aosp-security" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" >
     <linkfile src="current/androidx-README.md" dest="frameworks/support.md" />
   </project>
@@ -847,34 +847,34 @@
   <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk" />
   <project path="toolchain/benchmark" name="toolchain/benchmark" />
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" />
-  <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" />
-  <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" />
-  <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" />
-  <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" />
+  <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" remote="aosp-security" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp-security" />
+  <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" remote="aosp-security" />
+  <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" remote="aosp-security" />
+  <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" remote="aosp-security" />
+  <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" remote="aosp-security" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp-security" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp-security" />
-  <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" />
-  <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" />
-  <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" />
-  <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" />
+  <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" remote="aosp-security" />
+  <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" remote="aosp-security" />
+  <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" remote="aosp-security" />
+  <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" remote="aosp-security" />
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" remote="aosp-security" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp-security" />
-  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
-  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed" />
-  <project path="tools/metalava" name="platform/tools/metalava" groups="pdk,tools" />
-  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk" />
-  <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" />
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp-security" />
+  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed" remote="aosp-security" />
+  <project path="tools/metalava" name="platform/tools/metalava" groups="pdk,tools" remote="aosp-security" />
+  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp-security" />
+  <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk" remote="aosp-security" />
+  <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" remote="aosp-security" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" remote="aosp-security" />
   <project path="tools/security" name="platform/tools/security" groups="pdk,tools" remote="aosp-security" />
-  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
-  <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" />
-  <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
-  <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp-security" />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp-security" />
+  <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" remote="aosp-security" />
+  <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" remote="aosp-security" />
+  <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp-security" />
+  <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp-security" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp-security" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp-security" />
 
