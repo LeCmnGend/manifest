@@ -15,5 +15,9 @@
 
   <!-- System Repos -->
   <project path="system/hwservicemanager" name="android_system_hwservicemanager" remote="crdroid" />
+  <project path="system/iorap" name="android_system_iorap" remote="crdroid" />
+
+  <!-- Tools Repos -->
+
 
 </manifest>
