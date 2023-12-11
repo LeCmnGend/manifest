@@ -452,7 +452,7 @@
   <project path="external/skqp" name="platform/external/skqp" groups="cts,pdk" clone-depth="1" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" />
-  <project path="external/smali" name="platform/external/smali" groups="pdk" />
+  <project path="external/smali" name="platform/external/smali" groups="pdk" remote="aosp-security" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -472,7 +472,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" />
-  <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
+  <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp-security"/>
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" />
   <project path="external/u-boot" name="platform/external/u-boot" groups="pdk" />
@@ -486,8 +486,8 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/volley" name="platform/external/volley" groups="pdk" />
-  <project path="external/vulkan-headers" name="platform/external/vulkan-headers" groups="pdk" />
-  <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="pdk" />
+  <project path="external/vulkan-headers" name="platform/external/vulkan-headers" groups="pdk" remote="aosp-security"/>
+  <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="pdk" remote="aosp-security"/>
   <project path="external/walt" name="platform/external/walt" groups="pdk" />
   <project path="external/wayland" name="platform/external/wayland" groups="pdk" />
   <project path="external/wayland-protocols" name="platform/external/wayland-protocols" groups="pdk" />
@@ -775,13 +775,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" >
     <linkfile src="current/androidx-README.md" dest="frameworks/support.md" />
   </project>
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
-  <project path="prebuilts/vndk/v27" name="platform/prebuilts/vndk/v27" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" />
-  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/apex" name="platform/system/apex" groups="pdk" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp-security"/>
+  <project path="prebuilts/vndk/v27" name="platform/prebuilts/vndk/v27" groups="pdk" clone-depth="1" remote="aosp-security"/>
+  <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" remote="aosp-security"/>
+  <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" remote="aosp-security"/>
+  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp-security"/>
+  <project path="system/apex" name="platform/system/apex" groups="pdk" remote="aosp-security"/>
+  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="aosp-security"/>
   <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
@@ -803,29 +803,29 @@
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" remote="aosp-security" />
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
-  <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
-  <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" remote="aosp-security"/>
+  <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" remote="aosp-security"/>
+  <project path="system/media" name="platform/system/media" groups="pdk" remote="aosp-security"/>
   <project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk" />
   <project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" />
   <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" />
-  <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" />
+  <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" remote="aosp-security"/>
   <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" remote="aosp-security" />
   <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
-  <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
-  <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+  <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp-security"/>
+  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp-security"/>
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="aosp-security"/>
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
   <project path="system/teeui" name="platform/system/teeui" groups="pdk" />
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" />
-  <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
-  <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
-  <project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" remote="aosp-security" />
+  <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" remote="aosp-security" />
+  <project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" remote="aosp-security" />
   <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" />
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" />
-  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
+  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" remote="aosp-security" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,projectarch,pdk" />
   <project path="test/mlts/benchmark" name="platform/test/mlts/benchmark" groups="pdk" />
@@ -853,14 +853,14 @@
   <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" />
   <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" />
   <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
-  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp-security" />
+  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp-security" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" />
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" />
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" />
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" />
-  <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" />
-  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
+  <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" remote="aosp-security" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp-security" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="nopresubmit,pdk,tradefed" />
   <project path="tools/metalava" name="platform/tools/metalava" groups="pdk,tools" />
@@ -868,15 +868,15 @@
   <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk" />
   <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" />
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" />
-  <project path="tools/security" name="platform/tools/security" groups="pdk,tools" />
+  <project path="tools/security" name="platform/tools/security" groups="pdk,tools" remote="aosp-security" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
-  <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
-  <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+  <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp-security" />
+  <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp-security" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
