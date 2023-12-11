@@ -70,6 +70,7 @@
 
   <!-- Frameworks Repos -->
   <project path="frameworks/minikin" name="android_frameworks_minikin" remote="los" />
+  <project path="frameworks/ml" name="android_frameworks_ml" remote="los" />
 
   <!-- Packages Repos -->
   <project path="packages/apps/Car/Settings" name="android_packages_apps_Car_Settings" remote="los"/>
