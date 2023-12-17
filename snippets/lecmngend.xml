@@ -55,6 +55,7 @@
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="lecmngend" />
     
   <!-- System -->
+  <project path="system/core" name="android_system_core" remote="lecmngend" />
   <project path="system/security" name="android_system_security" remote="lecmngend"  />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="lecmngend" />
 

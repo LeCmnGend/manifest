@@ -78,7 +78,6 @@
   <project path="system/bpf" name="platform_system_bpf" remote="syberia" />
   <project path="system/bpfprogs" name="platform_system_bpfprogs" remote="syberia" />
   <project path="system/bt" name="platform_system_bt" remote="syberia" />
-  <project path="system/core" name="platform_system_core" remote="syberia" />
   <project path="system/extras" name="platform_system_extras" remote="syberia" />
   <project path="system/libhwbinder" name="platform_system_libhwbinder" remote="syberia" />
   <project path="system/linkerconfig" name="platform_system_linkerconfig" remote="syberia" />
