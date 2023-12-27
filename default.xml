@@ -48,6 +48,11 @@
            sync-c="true"
            revision="refs/heads/11.0" />
 
+  <remote name="evolution"
+           fetch="https://github.com/Evolution-X/"
+           sync-c="true"
+           revision="refs/heads/udc" />
+
   <default revision="refs/tags/android-11.0.0_r48"
            sync-c="true"
            remote="aosp" />
@@ -898,7 +903,10 @@
   <!-- Add AOSPA repos -->
   <include name="snippets/aospa.xml" />
 
-    <!-- Pixel repos -->
+  <!-- Pixel repos -->
     <include name="snippets/pixel.xml" />	
+
+  <!-- Evolution-X repos -->
+    <include name="snippets/evolution.xml" />
 
 </manifest>

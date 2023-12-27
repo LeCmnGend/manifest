@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Packages Repos -->
+  <project path="packages/apps/Pif" name="packages_apps_Pif" remote="evolution" />
+
+</manifest>
