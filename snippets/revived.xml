@@ -25,6 +25,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="rr-r"/>
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="rr-r" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="rr-r" />
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="rr-r" />
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="rr-r" />
