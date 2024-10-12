@@ -12,10 +12,16 @@ Sync
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/ResurrectionRemix-Revived/manifest.git -b Q --git-lfs
+
+Use my fork repo:
+repo init -u https://github.com/LeCmnGend/android_manifest.git -b Q-rr --depth=1 --git-lfs
+
+
+Or use original 
+repo init -u https://github.com/ResurrectionRemix-Revived/manifest.git -b Q --depth=1 --git-lfs
 
 # Sync
-repo sync --force-sync --no-clone-bundle
+repo sync -c -j4 --force-sync --no-clone-bundle --no-tags
 ```
 
 Build

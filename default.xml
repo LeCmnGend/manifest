@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="lecmngend"
+           fetch="https://github.com/LeCmnGend"
+           revision="Q-rr"
+           sync-c="true"
+           sync-j="4" />
+
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
