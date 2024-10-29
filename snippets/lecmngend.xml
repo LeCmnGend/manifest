@@ -17,6 +17,9 @@
 
   <!-- Additions -->
 
+  <!-- Hardwares -->
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lecmngend" />
+
   <!-- MindTheGapps -->
 
   <!-- MicroG -->
