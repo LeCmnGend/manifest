@@ -17,6 +17,9 @@
 
   <!-- Additions -->
 
+  <!-- Frameworks -->
+  <project path="frameworks/native" name="android_frameworks_native" remote="lecmngend" />
+
   <!-- Hardwares -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lecmngend" />
 
