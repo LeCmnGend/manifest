@@ -30,6 +30,9 @@
 
   <!-- MicroG -->
 
+  <!-- SeLinux -->
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="lecmngend" />
+
   <!-- Vendor -->
   <project path="vendor/rr" name="android_vendor_resurrection" remote="lecmngend"/>
 

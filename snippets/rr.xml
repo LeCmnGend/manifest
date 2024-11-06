@@ -15,9 +15,6 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="rr" />
   <project path="frameworks/support/lottie" name="android_frameworks_support_lottie" remote="rr" />
 
-  <!-- SeLinux -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="rr" />
-
   <!-- System -->
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="rr" />
   <project path="external/sqlite" name="android_external_sqlite" remote="rr" />
