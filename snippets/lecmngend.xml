@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="lecmngend"
+           fetch="https://github.com/LeCmnGend"
+           revision="V-yap" />
+
+  <remote  name="lecmngend-lab"
+           fetch="https://gitlab.com/LeCmnGend"
+           revision="V-yap" />
+
+  <!-- Android -->
+
+</manifest>

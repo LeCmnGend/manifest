@@ -16,7 +16,7 @@
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
   <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
-  <project path="manifest" name="yaap/manifest" remote="github" revision="fifteen" />
+  <project path="manifest" name="lecmngend/android_manifest" remote="github" revision="V-yap" />
 
   <!-- Build -->
   <project path="build/make" name="build_make" remote="yaap" >
