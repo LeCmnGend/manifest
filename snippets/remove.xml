@@ -140,8 +140,6 @@
   <remove-project name="platform/packages/services/Iwlan" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
-  <remove-project name="platform/prebuilts/go/darwin-x86" />
   <remove-project name="platform/prebuilts/sdk" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
