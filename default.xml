@@ -1472,6 +1472,7 @@
   <include name="snippets/clo.xml" />
   <include name="snippets/shallow.xml" />
   <include name="snippets/lecmngend.xml" />
+  <include name="snippets/crDroid.xml" />
 
   <!-- END open-source projects -->
 </manifest>

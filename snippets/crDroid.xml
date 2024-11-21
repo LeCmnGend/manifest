@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="cr"
+           fetch="https://github.com/crdroidandroid"
+           revision="15.0" />
+
+  <!-- Android -->
+
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr" />
+
+</manifest>
