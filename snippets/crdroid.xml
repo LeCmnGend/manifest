@@ -50,9 +50,11 @@
   <project path="frameworks/opt/net/wifi" name="crdroidandroid/android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
 
+  <!-- Hardware -->
   <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="hardware/lineage/interfaces" name="crdroidandroid/android_hardware_lineage_interfaces" remote="crdroid" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="15.0-caf-sm8150" />
+  <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="crdroid" />
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
@@ -94,5 +96,7 @@
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
   <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+
+
 
 </manifest>
