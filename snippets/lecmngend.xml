@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="lecmngend"
+  <remote  name="lec"
            fetch="https://github.com/LeCmnGend"
            revision="V-yap" />
 
-  <remote  name="lecmngend-lab"
+  <remote  name="lec-lab"
            fetch="https://gitlab.com/LeCmnGend"
            revision="V-yap" />
 
   <!-- Android -->
+
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/priv-keys" name="vendor_xiaomi_priv-keys" remote="lec" />
+
 
 </manifest>
