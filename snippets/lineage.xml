@@ -65,7 +65,7 @@
   <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" revision="lineage-22.0" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" revision="lineage-22.0" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" revision="lineage-22.0" />
-  <project path="vendor/qcom/opensource/commonsys/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys" revision="lineage-22.0" />
   <project path="vendor/qcom/opensource/commonsys/fm" remote="lineage" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/wfd" remote="lineage" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,kailua-video" />
   <project path="vendor/qcom/opensource/core-utils-sys" remote="lineage" name="android_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" />
