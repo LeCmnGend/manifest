@@ -80,6 +80,7 @@
   <project path="vendor/qcom/opensource/vibrator" remote="lineage" name="android_vendor_qcom_opensource_vibrator" groups="qcom,kailua-vendor" />
 
   <!-- Packages -->
+  <project path="packages/apps/Camelot" name="android_packages_apps_Camelot" remote="lineage" revision="lineage-22.0" />
   <project path="packages/apps/Glimpse" name="android_packages_apps_Glimpse" remote="lineage" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" revision="lineage-22.0" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
