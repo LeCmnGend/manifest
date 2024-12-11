@@ -45,14 +45,16 @@ and their change histories.
 
 ```bash
 # Let Repo take care of all the hard work
-$ repo sync -j4
+$ repo sync -c -j3
 ```
 
 ```bash
 # Run to prepare our devices list
 $ . build/envsetup.sh
 # ... now run
-$ brunch devicecodename
+$ breakfast devicecodename
+#then (-j is number of core you wanna run, low ram low number of core)
+$ mka bacon -j2
 ```
 
 ## 2. Contributions ##
