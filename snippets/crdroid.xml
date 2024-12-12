@@ -14,8 +14,6 @@
            revision="refs/heads/15.0" />
 
   <!-- crDroid additions -->
-  <project path="android" name="crdroidandroid/android" remote="crdroid" />
-
   <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid" />
 
   <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />
